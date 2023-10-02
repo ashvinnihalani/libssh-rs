@@ -17,6 +17,7 @@ pub const SSH_AUTH_METHOD_PUBLICKEY: u32 = 4;
 pub const SSH_AUTH_METHOD_HOSTBASED: u32 = 8;
 pub const SSH_AUTH_METHOD_INTERACTIVE: u32 = 16;
 pub const SSH_AUTH_METHOD_GSSAPI_MIC: u32 = 32;
+pub const SSH_AUTH_METHOD_CERT: u32 = 64;
 pub const SSH_CLOSED: u32 = 1;
 pub const SSH_READ_PENDING: u32 = 2;
 pub const SSH_CLOSED_ERROR: u32 = 4;
